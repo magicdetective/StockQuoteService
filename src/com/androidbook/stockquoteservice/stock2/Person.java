@@ -33,7 +33,7 @@ public class Person implements Parcelable{
 	
 	@Override
 	public int describeContents() {
-		return 0;
+		return 1;
 	}
 
 	@Override
